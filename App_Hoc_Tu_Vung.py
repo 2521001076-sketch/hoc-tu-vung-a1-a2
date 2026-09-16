@@ -1045,7 +1045,7 @@ st.title("🎯 Ứng Dụng Học Từ Vựng Tiếng Anh")
 # 1. Khởi tạo bài học
 if "selected_words" not in st.session_state:
     # Lấy ngẫu nhiên các từ từ danh sách để đố
-  st.session_state.selected_words = random.sample(VOCAB_LIST, len(VOCAB_LIST)))
+  st.session_state.selected_words = random.sample(VOCAB_LIST, len(VOCAB_LIST))
 
   st.session_state.current_index = 0
   st.session_state.score = 0
