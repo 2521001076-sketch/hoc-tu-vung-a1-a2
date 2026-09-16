@@ -1047,9 +1047,9 @@ if "selected_words" not in st.session_state:
     # Lấy ngẫu nhiên các từ từ danh sách để đố
   st.session_state.selected_words = random.sample(VOCAB_LIST, min(20, len(VOCAB_LIST)))
 
-    st.session_state.current_index = 0
-    st.session_state.score = 0
-    st.session_state.answered = False
+  st.session_state.current_index = 0
+  st.session_state.score = 0
+  st.session_state.answered = False
 
 # # 2. Kiểm tra xem còn câu hỏi không
 if st.session_state.current_index < len(st.session_state.selected_words):
